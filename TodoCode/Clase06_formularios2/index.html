@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Nuevo formulario</h2>
+    <form action="envio.html" method="post">
+        <p><label for="nombre">Nombre: </label><input type="text" id="nombre"></p>
+        <p><label for="apellido">Apellido: </label><input type="text" id="apellido"></p>
+        <p><label for="edad">Edad: </label><input type="text" id="edad"></p>
+        <!--Opciones precargadas, con select-->
+        <p><label for="estatura">Estatura:
+                <select name="estatura" id="estatura">
+                    <option value="< 150">
+                        < 150 cm</option>
+                    <option value="151-160">151-160 cm</option>
+                    <option value="161-170" selected>161-170 cm</option>
+                    <option value="171-180">171-180 cm</option>
+                    <option value="> 181" disabled> > 181 cm</option>
+                    <!--Notese selected y disabled en la utilizacion de option-->
+                </select>
+            </label></p>
+        <label for="">
+            <p><b>Color de ojos</b></p>
+            <label for="marrones"><input name="color_ojos" type="radio" value="marrones" id="marrones">Marrones</label> <br>
+            <label for="verdes"><input name="color_ojos" type="radio" value="verdes" id="verdes">Verdes</label> <br>
+            <label for="azules"><input name="color_ojos" type="radio" value="azules" id="azules">Azules</label> <br>
+        </label>
+        <p><strong>Musica preferida</strong></p>
+        <label for="rock"><input type="checkbox" id="rock">Rock</label> <br>
+        <label for="pop"><input type="checkbox" id="pop">Pop</label> <br>
+        <label for="latino"><input type="checkbox" id="latino">Latino</label> <br>
+        <p>Utilizando la etiqueta 'checkbox' tenemos la posibilidad de seleccion multiple</p>
+
+        <button type="submit">Enviar formulario</button>
+    </form>
+</body>
+
+</html>
