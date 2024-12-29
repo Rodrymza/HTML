@@ -1,0 +1,20 @@
+selectores css
+    permiten hacer referencia a clases o ids dentro de un documento html
+    para aplicar estilos a los elementos que tengan esa clase o id.
+    no permiten cambios a elementos individuales sino a un conjuhnto o bloque
+    de elementos que tengan esa clase o id.
+
+existen 4 tipos de selectores:
+Los 4 tipos de selectores son:
+
+1. Selectores de tipo: seleccionan elementos HTML según su nombre de etiqueta.
+2. Selectores de clase: seleccionan elementos HTML según su clase.
+3. Selectores de ID: seleccionan elementos HTML según su ID.
+4. Selectores universales: seleccionan todos los elementos HTML de un documento.
+
+La identificación en selectores de clase y de ID se realiza de la siguiente manera:
+
+- Selectores de clase: se utilizan el punto (.) seguido del nombre de la clase. Por ejemplo, si tenemos un elemento HTML con la clase "parrafo", el selector sería ".parrafo".
+- Selectores de ID: se utilizan el símbolo numeral (#) seguido del nombre del ID. Por ejemplo, si tenemos un elemento HTML con el ID "titulo", el selector sería "#titulo".1    
+
+El selector universal en CSS se utiliza para seleccionar todos los elementos HTML de un documento. Se representa mediante un asterisco (*) y se puede utilizar de forma independiente o combinada con otros selectores. Por ejemplo, para aplicar un estilo a todos los elementos de un documento, se puede utilizar el selector universal de la siguiente manera: * { estilo }
